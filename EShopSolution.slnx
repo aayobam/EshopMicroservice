@@ -1,0 +1,24 @@
+<Solution>
+  <Folder Name="/BuildingBlocks/">
+    <Project Path="BuildingBlock/BuildingBlock.csproj" Id="2af64c7c-4e93-4218-b110-4e5fc4de6528" />
+  </Folder>
+  <Folder Name="/Services/" />
+  <Folder Name="/Services/Basket/">
+    <Project Path="Basket.API/Basket.API.csproj" Id="1cbad306-346c-4e1c-bf12-e239a9a9f2da" />
+  </Folder>
+  <Folder Name="/Services/Catalog/">
+    <Project Path="Catalog.API/Catalog.API.csproj" Id="94548983-8d3f-4d74-84d3-6f6f2b444fcd" />
+  </Folder>
+  <Folder Name="/Services/Discount/">
+    <Project Path="Discount.API/Discount.API.csproj" Id="97c1993f-fefb-4280-92fd-b92071368795" />
+  </Folder>
+  <Folder Name="/Services/Ordering/">
+    <Project Path="Ordering.API/Ordering.API.csproj" Id="20b1f64b-8a39-4f16-a11f-5156345f6cc9" />
+    <Project Path="Ordering.Application/Ordering.Application.csproj" Id="e138768c-6cef-4c86-a92b-6ff5f52fb472" />
+    <Project Path="Ordering.Domain/Ordering.Domain.csproj" Id="0f9009b6-3cac-48fa-8dcf-e19dbac63b36" />
+    <Project Path="Ordering.Infrastructure/Ordering.Infrastructure.csproj" Id="02a9af2b-2d36-472c-bd28-0a46d7d6920e" />
+  </Folder>
+  <Project Path="docker-compose.dcproj">
+    <Build />
+  </Project>
+</Solution>
