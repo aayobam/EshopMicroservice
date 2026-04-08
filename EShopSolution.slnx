@@ -18,6 +18,9 @@
     <Project Path="Ordering.Domain/Ordering.Domain.csproj" Id="0f9009b6-3cac-48fa-8dcf-e19dbac63b36" />
     <Project Path="Ordering.Infrastructure/Ordering.Infrastructure.csproj" Id="02a9af2b-2d36-472c-bd28-0a46d7d6920e" />
   </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+  </Folder>
   <Project Path="docker-compose.dcproj">
     <Build />
   </Project>
