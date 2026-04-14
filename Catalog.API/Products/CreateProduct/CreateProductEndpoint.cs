@@ -17,8 +17,8 @@ public class CreateProductEndpoint : ICarterModule
         })
             .WithName("CreateProduct")
             .Produces<CreateProductResponse>(StatusCodes.Status201Created)
-            .ProducesProblem(StatusCodes.Status500InternalServerError)
             .ProducesValidationProblem(StatusCodes.Status400BadRequest)
+            .ProducesProblem(StatusCodes.Status500InternalServerError)
             .WithSummary("Create Product")
             .WithDescription("Endpoint to create product.");
     }

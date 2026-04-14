@@ -4,4 +4,5 @@ global using MediatR;
 global using Marten;
 global using BuildingBlock.CQRS;
 global using Catalog.API.Models.Entities;
+global using FluentValidation;
 namespace Catalog.API.Exceptions;
